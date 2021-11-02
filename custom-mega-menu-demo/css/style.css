@@ -1,0 +1,243 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	width: 100%;
+	max-width: 1400px!important;
+}
+.navbar-brand img {
+	max-width: 200px;
+}
+header nav {
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+}
+nav ul li .nav-link {
+	font-size: 17px;
+	font-weight: 500;
+	color: black;
+	text-transform: uppercase;
+	padding-right: 0px!important;
+	padding-left: 55px !important;
+	padding-top:20px!important; 
+	padding-bottom:20px!important; 
+}
+.navbar-toggler-icon {
+	border:2px solid red;
+	position: relative;
+	padding: 15px 20px!important;
+}
+.navbar-toggler-icon i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+button:focus {
+	outline:unset!important;
+}
+.dropdown-menu {
+	left: 20px!important;
+	top: 50px !important;
+	margin-top: 10px!important;
+	padding: 0px!important;
+}
+.dropdown-menu .dropdown-item {
+	font-size: 16px;
+	font-weight: 500;
+	color: black;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.dropdown-menu .dropdown-item i {
+	padding-right: 5px;
+	font-weight: 600;
+	font-size: 16px;
+	color: black;
+}
+.megamenu-main-div {
+	position: absolute;
+	width: 100%;
+	left: 0!important;
+	top: 75px!important;
+	background-color: #e6e1e7!important;
+	padding-top: 40px !important;
+	padding-bottom: 40px !important;
+}
+.megamenu-text-img-div img {
+	max-width: 200px;
+	margin-bottom: 30px;
+}
+.megamenu-text-img-div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.megamenu-text-img-div ul li {
+	position: relative;
+	margin-bottom: 10px;
+	padding-left: 15px;
+}
+.megamenu-text-img-div ul li a {
+	font-size: 17px;
+	color: black;
+	font-weight: 500;
+}
+.megamenu-text-img-div ul li a:before {
+	font-family: FontAwesome;
+    content: "\f105";
+    display: inline-block;
+    padding-right: 0px;
+    vertical-align: middle;
+    font-weight: 100;
+    color: #000000;
+    position: absolute;
+    left: 0px;
+    font-size: 16px;
+    top: 1px;
+
+}
+.megamenu-text-img-div ul li a:hover {
+	text-decoration: none;
+	color: red;
+}
+header nav li:hover > .dropdown-menu {
+	display: block;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	.container {
+	width: 100%;
+	max-width: 540px!important;
+}
+.navbar-brand img {
+	max-width: 170px;
+}
+nav ul {
+	margin-top: 20px;
+}
+nav ul li .nav-link {
+	font-size: 16px;
+	padding-left: 0px!important;
+	padding-top: 0px!important;
+	padding-bottom: 0px!important;
+	margin-bottom: 15px;
+}
+.dropdown-menu .dropdown-item {
+	font-size: 14px;
+}
+.megamenu-text-img-div img , .megamenu-text-img-div-2 img {
+	display: none;
+}
+.megamenu-main-div {
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+	height: 200px;
+	overflow-y: scroll;
+}
+.megamenu-main-div::-webkit-scrollbar {
+    width: 8px;
+    background-color: #fdfd34;
+}
+.megamenu-main-div::-webkit-scrollbar-thumb {
+    background: #007fff;
+    border-radius: 10px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container {
+	width: 100%;
+	max-width: 750px!important;
+}
+.navbar-brand img {
+	max-width: 170px;
+}
+nav ul {
+	margin-top: 20px;
+}
+nav ul li .nav-link {
+	font-size: 16px;
+	padding-left: 0px!important;
+		padding-top: 0px!important;
+	padding-bottom: 0px!important;
+	margin-bottom: 15px;
+}
+.dropdown-menu .dropdown-item {
+	font-size: 14px;
+}
+.megamenu-main-div {
+	    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+.megamenu-text-img-div img {
+    max-width: 156px;
+    margin-bottom: 20px;
+}
+.megamenu-text-img-div ul li a {
+	font-size:16px; 
+}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.container {
+	width: 100%;
+	max-width: 960px!important;
+}
+.navbar-brand img {
+	max-width: 170px;
+}
+nav ul li .nav-link {
+	font-size: 15px;
+    padding-left: 23px !important;
+}
+.dropdown-menu {
+	left: 0px!important;
+	margin-top: 10px!important;
+}
+.megamenu-main-div {
+	    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+.megamenu-text-img-div img {
+    max-width: 156px;
+    margin-bottom: 20px;
+}
+.megamenu-text-img-div ul li a {
+	font-size:16px; 
+}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+	.container {
+	width: 100%;
+	max-width: 1140px!important;
+}
+.navbar-brand img {
+	max-width: 170px;
+}
+nav ul li .nav-link {
+	font-size: 16px;
+    padding-left: 40px !important;
+}
+.dropdown-menu .dropdown-item {
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.megamenu-main-div {
+	    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+.megamenu-text-img-div img {
+    max-width: 156px;
+    margin-bottom: 20px;
+}
+.megamenu-text-img-div ul li a {
+	font-size:16px; 
+}
+}
